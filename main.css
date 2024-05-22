@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-family: 'Playfair display', sans-serif;
+    font-size: 35px;
+    color: rgb(204, 176, 100);
+
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:  rgb(60, 23, 95);
+
+}
+
+#cabecalho
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: rgb(204, 176, 100);
+}
+
+
+.text-colored{
+    color: #fff;
+}
+
+.text-color{
+    color: rgb(204, 176, 100);
+}
+
+
+#servicos,
+#empresas{
+    background-color:  rgb(204, 176, 100);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
